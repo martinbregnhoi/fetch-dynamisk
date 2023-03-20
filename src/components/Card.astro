@@ -1,0 +1,15 @@
+---
+const {brandname, articletype, price} = Astro.props;
+---
+<article>
+      <h2>{brandname}</h2>
+      <p>{articletype}</p>
+      <p>{price}</p>
+</article>
+
+<style>
+       article{
+      border: 1px solid #333;
+      padding: 10px;
+    }
+</style>
